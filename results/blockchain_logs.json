@@ -1,0 +1,122 @@
+[
+    {
+        "hospital": "H1",
+        "round": 1,
+        "accuracy": 96.31901840490798,
+        "status": "\u2714 VERIFIED"
+    },
+    {
+        "hospital": "H2",
+        "round": 1,
+        "accuracy": 95.70552147239265,
+        "status": "\u2714 VERIFIED"
+    },
+    {
+        "hospital": "H1",
+        "round": 2,
+        "accuracy": 96.8558282208589,
+        "status": "\u2714 VERIFIED"
+    },
+    {
+        "hospital": "H2",
+        "round": 2,
+        "accuracy": 97.04754601226993,
+        "status": "\u2714 VERIFIED"
+    },
+    {
+        "hospital": "H1",
+        "round": 3,
+        "accuracy": 98.08282208588957,
+        "status": "\u2714 VERIFIED"
+    },
+    {
+        "hospital": "H2",
+        "round": 3,
+        "accuracy": 97.12423312883436,
+        "status": "\u274c TAMPERED"
+    },
+    {
+        "hospital": "H1",
+        "round": 4,
+        "accuracy": 97.46932515337423,
+        "status": "\u2714 VERIFIED"
+    },
+    {
+        "hospital": "H2",
+        "round": 4,
+        "accuracy": 96.58742331288343,
+        "status": "\u274c TAMPERED"
+    },
+    {
+        "hospital": "H1",
+        "round": 5,
+        "accuracy": 97.23926380368098,
+        "status": "\u2714 VERIFIED"
+    },
+    {
+        "hospital": "H2",
+        "round": 5,
+        "accuracy": 97.08588957055214,
+        "status": "\u2714 VERIFIED"
+    },
+    {
+        "hospital": "H1",
+        "round": 6,
+        "accuracy": 98.1978527607362,
+        "status": "\u2714 VERIFIED"
+    },
+    {
+        "hospital": "H2",
+        "round": 6,
+        "accuracy": 96.93251533742331,
+        "status": "\u2714 VERIFIED"
+    },
+    {
+        "hospital": "H1",
+        "round": 7,
+        "accuracy": 98.42791411042946,
+        "status": "\u2714 VERIFIED"
+    },
+    {
+        "hospital": "H2",
+        "round": 7,
+        "accuracy": 97.66104294478528,
+        "status": "\u274c TAMPERED"
+    },
+    {
+        "hospital": "H1",
+        "round": 8,
+        "accuracy": 98.92638036809815,
+        "status": "\u2714 VERIFIED"
+    },
+    {
+        "hospital": "H2",
+        "round": 8,
+        "accuracy": 97.7760736196319,
+        "status": "\u2714 VERIFIED"
+    },
+    {
+        "hospital": "H1",
+        "round": 9,
+        "accuracy": 98.54294478527608,
+        "status": "\u2714 VERIFIED"
+    },
+    {
+        "hospital": "H2",
+        "round": 9,
+        "accuracy": 97.96779141104295,
+        "status": "\u2714 VERIFIED"
+    },
+    {
+        "hospital": "H1",
+        "round": 10,
+        "accuracy": 98.92638036809815,
+        "status": "\u2714 VERIFIED"
+    },
+    {
+        "hospital": "H2",
+        "round": 10,
+        "accuracy": 98.2361963190184,
+        "status": "\u2714 VERIFIED"
+    }
+]

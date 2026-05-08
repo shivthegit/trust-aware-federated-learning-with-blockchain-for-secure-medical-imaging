@@ -1,0 +1,132 @@
+[
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": true,
+				"internalType": "address",
+				"name": "hospital",
+				"type": "address"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "modelHash",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "accuracy",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "timestamp",
+				"type": "uint256"
+			}
+		],
+		"name": "UpdateSubmitted",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "index",
+				"type": "uint256"
+			}
+		],
+		"name": "getUpdate",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "hospital",
+				"type": "address"
+			},
+			{
+				"internalType": "string",
+				"name": "modelHash",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "accuracy",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "timestamp",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getUpdatesCount",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_modelHash",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_accuracy",
+				"type": "uint256"
+			}
+		],
+		"name": "submitUpdate",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "updates",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "hospital",
+				"type": "address"
+			},
+			{
+				"internalType": "string",
+				"name": "modelHash",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "accuracy",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "timestamp",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
